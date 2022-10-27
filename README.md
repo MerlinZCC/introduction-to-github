@@ -108,7 +108,7 @@ When a GitHub Actions workflow is running, you should see some checks in progres
 
 You can follow along as GitHub Actions runs your job by going to the **Actions** tab or by clicking on "Details" in the merge box below.
 
-When the tests finish, you'll see a red X :x: or a green check mark :heavy_check_mark: in the merge box. At that point, you'll have access to logs for the build job and its associated steps.
+When the tests finish, you'll see a red X :x: or a green check mark :heavy*check*mark: in the merge box. At that point, you'll have access to logs for the build job and its associated steps.
 
 <!-- Note here: Learners -- yup, you found the error! Course maintainers -- leave the italics with * instead of _ for the error case. -->
 
@@ -126,7 +126,7 @@ If the checks don't appear or if the checks are stuck in progress, there's a few
 
 1. Update the code in the `ci` branch to get the test to pass. You need to look something like this:
    ```markdown
-   _underscore_
+   *underscore*
    ```
 1. **Commit changes**.
 1. Wait about 20 seconds then refresh this page for the next step.
@@ -142,7 +142,7 @@ If the checks don't appear or if the checks are stuck in progress, there's a few
 <details id=3>
 <summary><h2>Step 3: Upload test reports</h2></summary>
 
-_The workflow has finished running! :sparkles:_
+*The workflow has finished running! :sparkles:*
 
 So what do we do when we need the work product of one job in another? We can use the built-in [artifact storage](https://docs.github.com/en/actions/advanced-guides/storing-workflow-data-as-artifacts) to save artifacts created from one job to be used in another job within the same workflow.
 
